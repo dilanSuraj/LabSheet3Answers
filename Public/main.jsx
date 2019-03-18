@@ -6,5 +6,5 @@ import AppContainer from './AppContainer.jsx';
 
 import Users from './Users.jsx';
 
-render(<Users/>,document.getElementById('app'));
+render(<AppContainer/>,document.getElementById('app'));
 
