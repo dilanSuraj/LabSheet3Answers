@@ -2,7 +2,7 @@
 
 import React,{Component} from "react";
 
-import Prototypes from "prop-types";
+import PropTypes from "prop-types";
 
 import User from "./User.jsx";
 
@@ -11,7 +11,7 @@ export default class Users extends Component{
 
     static get propTypes(){
         return {
-            users:Prototypes.array
+            users:PropTypes.array
         }
     }
 

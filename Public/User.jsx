@@ -3,11 +3,11 @@
 import  React from "react";
 
 const User = props =>{
-    const {User} = props;
+    const {user} = props;
 
     return <tr>
-        <td>{User.id}</td>
-        <td>{User.name}</td>
+        <td>{user.id}</td>
+        <td>{user.name}</td>
     </tr>
 
 
