@@ -4,7 +4,7 @@ import React,{Component} from "react";
 
 import PropTypes from "prop-types";
 
-import User from "./User.jsx";
+import User from "./User.jsx.js";
 
 
 export default class Users extends Component{
